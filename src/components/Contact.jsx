@@ -42,7 +42,7 @@ export default function Contact() {
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">Basé à Kigali</div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">FR • EN</div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">Disponible: Remote/Hybrid</div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: < 24h</div>
+              <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: {'< 24h'}</div>
             </div>
           </div>
         </div>
