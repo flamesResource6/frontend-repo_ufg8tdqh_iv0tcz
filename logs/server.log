@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 271 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.1.167:3000/
+4:11:12 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
+4:11:13 PM [vite] ✨ new dependencies optimized: lucide-react, @splinetool/react-spline, framer-motion
+4:11:13 PM [vite] ✨ optimized dependencies changed. reloading
+4:11:14 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+4:11:15 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Contact.jsx:45:92
+  
+  Expected identifier but found "2"
+  43 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">FR • EN</div>
+  44 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Disponible: Remote/Hybrid</div>
+  45 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: < 24h</div>
+     |                                                                                              ^
+  46 |              </div>
+  47 |            </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+4:11:49 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Contact.jsx:45:92
+  
+  Expected identifier but found "2"
+  43 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">FR • EN</div>
+  44 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Disponible: Remote/Hybrid</div>
+  45 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: < 24h</div>
+     |                                                                                              ^
+  46 |              </div>
+  47 |            </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
