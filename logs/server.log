@@ -3,55 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 201 ms
+  VITE v5.4.20  ready in 233 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.39.203:3000/
-5:04:02 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
-5:04:05 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Contact.jsx:45:92
-  
-  Expected identifier but found "2"
-  43 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">FR • EN</div>
-  44 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Disponible: Remote/Hybrid</div>
-  45 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: < 24h</div>
-     |                                                                                              ^
-  46 |              </div>
-  47 |            </div>
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-5:04:26 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Contact.jsx:45:92: ERROR: Expected identifier but found "2"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Contact.jsx:45:92
-  
-  Expected identifier but found "2"
-  43 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">FR • EN</div>
-  44 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Disponible: Remote/Hybrid</div>
-  45 |                <div className="p-4 rounded-xl bg-white/5 border border-white/10">Réponse: < 24h</div>
-     |                                                                                              ^
-  46 |              </div>
-  47 |            </div>
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
